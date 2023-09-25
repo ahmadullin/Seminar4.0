@@ -1,19 +1,35 @@
 package org.example;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import org.example.BinaryTree;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+//        HashMap map = new HashMap();
+//
+//        map.insert(1, 2);
+//        map.insert(3, 4);
+//        map.insert(17, 6);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        BinaryTree tree = new BinaryTree();
+
+//        tree.insert(5);
+//        tree.insert(3);
+//        tree.insert(4);
+//        tree.insert(1);
+//        tree.insert(2);
+//        tree.insert(7);
+//        tree.insert(8);
+//        tree.insert(6);
+        for (int i = 1; i <= 8; i++) {
+            if (i != 2)
+                tree.insert(i);
         }
+        int stop =0;
+
+//        System.out.println(tree.find(7));
+//        System.out.println(tree.find(9));
+
+
     }
 }
